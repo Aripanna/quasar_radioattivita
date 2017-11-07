@@ -7,7 +7,7 @@ $.getJSON(url, function(data){
 	var mymap = L.map('mapid').setView([41.532575, 12.293965], 7);
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 25,
-		id: 'mapbox.satellite',
+		id: 'mapbox.streets',
         setMinZoom: 5
 	}).addTo(mymap);
 
